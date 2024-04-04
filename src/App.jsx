@@ -1,9 +1,9 @@
 import About from "./components/About";
-import Experience from "./components/Experience";
-import Experiencess from "./components/Experiencess";
+import Contact from "./components/Contact";
+import Skills from "./components/Experiencess";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import Portfolio from "./components/Portfolio";
+import Project from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
 
 function App() {
@@ -12,11 +12,11 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Portfolio />
-      <Experiencess />
+      <Project />
+      <Skills />
+      <Contact />
 
       <SocialLinks />
-      <Experience />
     </div>
   );
 }

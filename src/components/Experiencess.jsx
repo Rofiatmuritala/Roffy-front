@@ -1,29 +1,112 @@
 import React from "react";
 import image5 from "../assets/Screenshot (2).png";
-import image7 from "../assets/react.svg";
+import html from "../assets/html-logo.png";
+import css from "../assets/css.jpg";
+import javascript from "../assets/js-logo.png";
+import react from "../assets/react-logo.png";
+import tailwind from "../assets/tailwind.png";
+import bootstrap from "../assets/bootstraplogo.png";
+import nodejs from "../assets/nodejs-logo.png";
+import expressjs from "../assets/express-js.logo.png";
+import git from "../assets/git-logo.png";
 
-const Experiencess = () => {
+const Skills = () => {
+  const techs = [
+    {
+      id: 1,
+      src: html,
+      title: "HTML",
+      proficiency: "Intermediate",
+      style: "shadow-orange-500",
+    },
+    {
+      id: 2,
+      src: css,
+      title: "CSS",
+      proficiency: "Intermediate",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 3,
+      src: javascript,
+      title: "Javascript",
+      proficiency: "Basic",
+      style: "shadow-yellow-500",
+    },
+    {
+      id: 4,
+      src: react,
+      title: "React",
+      proficiency: "Intermediate",
+      style: "shadow-blue-600",
+    },
+    {
+      id: 5,
+      src: tailwind,
+      title: "Tailwind",
+      proficiency: "Basic",
+      style: "shadow-sky-400",
+    },
+    {
+      id: 6,
+      src: bootstrap,
+      title: "Bootstrap",
+      proficiency: "Basic",
+      style: "shadow-purple-500",
+    },
+
+    {
+      id: 7,
+      src: nodejs,
+      title: "Node Js",
+      proficiency: "Basic",
+      style: "shadow-green-500",
+    },
+    {
+      id: 8,
+      src: expressjs,
+      title: "Express Js",
+      proficiency: "Basic",
+      style: "shadow-white",
+    },
+    {
+      id: 9,
+      src: git,
+      title: "Git",
+      proficiency: "Basic",
+      style: "shadow-orange-500",
+    },
+  ];
+
   return (
     <div
       name="experience"
       className="bg-gradient-to-b from-gray-800 to-black w-full  h-screen"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-white">
+      <div className="max-w-screen-lg pt-6 p-4 mx-auto flex flex-col justify-center w-full h-full text-white">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
-            Experience
+            Skills
           </p>
-          <p className="py-6">These are the technology I have worked on</p>
+          <p className="py-6">
+            These are the technical and soft skills we have
+          </p>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
-          <div className="shadow-md shadow-sky-500 duration-200 hover:scale-500 py-2 rounded-lg">
-            <img src={image5} className="w-20 mx-auto"></img>
-            <p className="mt-4">HTML</p>
-          </div>
+        <div className="grid grid-cols-2 sm:grid-cols-5 gap-8 text-center py-8 px-12 sm:px-0">
+          {techs.map(({ id, src, title, proficiency, style }) => (
+            <div
+              key={id}
+              className={`shadow-md duration-200 hover:scale-500 py-2 rounded-lg ${style}`}
+            >
+              <img src={src} alt="" className="w-20 mx-auto"></img>
+              <p className="mt-4">{title}</p>
+              <p className="mt-4">{proficiency}</p>
+            </div>
+          ))}
         </div>
       </div>
     </div>
   );
 };
 
-export default Experiencess;
+export default Skills;
