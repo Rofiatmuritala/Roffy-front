@@ -13,7 +13,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://linkedin.com",
-      style: "rounded-tr-md",
+      style: "rounded-tr-md shadow-blue-600",
     },
     {
       id: 2,
@@ -41,7 +41,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "/resume.pdf",
-      style: "rounded-br-md",
+      style: "rounded-br-md shadow-blue-600",
       download: true,
     },
   ];
