@@ -12,11 +12,11 @@ const Navbar = () => {
     },
     {
       id: 2,
-      link: "skills",
+      link: "about",
     },
     {
       id: 3,
-      link: "projects",
+      link: "project",
     },
     {
       id: 4,
@@ -24,7 +24,7 @@ const Navbar = () => {
     },
     {
       id: 5,
-      link: "blog",
+      link: "skills",
     },
     {
       id: 6,
@@ -43,7 +43,7 @@ const Navbar = () => {
             key={id}
             className=" capitalize cursor-pointer px-4 font-medium text-gray-500 hover:scale-105 duration-200"
           >
-            <Link to={link} smooth={true} duration={500}>
+            <Link to={link} smooth duration={500}>
               {link}
             </Link>
           </li>

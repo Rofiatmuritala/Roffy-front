@@ -47,30 +47,23 @@ const Skills = () => {
       proficiency: "Basic",
       style: "shadow-sky-400",
     },
-    {
-      id: 6,
-      src: bootstrap,
-      title: "Bootstrap",
-      proficiency: "Basic",
-      style: "shadow-purple-500",
-    },
 
     {
-      id: 7,
+      id: 6,
       src: nodejs,
       title: "Node Js",
       proficiency: "Basic",
       style: "shadow-green-500",
     },
     {
-      id: 8,
+      id: 7,
       src: expressjs,
       title: "Express Js",
       proficiency: "Basic",
       style: "shadow-white",
     },
     {
-      id: 9,
+      id: 8,
       src: git,
       title: "Git",
       proficiency: "Basic",
@@ -80,8 +73,8 @@ const Skills = () => {
 
   return (
     <div
-      name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full  h-screen"
+      name="skills"
+      className="bg-gradient-to-b from-gray-800 to-black w-full px-6 py-24 sm:py-32 lg:px-8"
     >
       <div className="max-w-screen-lg pt-6 p-4 mx-auto flex flex-col justify-center w-full h-full text-white">
         <div>
@@ -92,13 +85,13 @@ const Skills = () => {
             These are the technical and soft skills we have
           </p>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-5 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, proficiency, style }) => (
             <div
               key={id}
               className={`shadow-md duration-200 hover:scale-500 py-2 rounded-lg ${style}`}
             >
-              <img src={src} alt="" className="w-20 mx-auto"></img>
+              <img src={src} alt="" className="w-20  mx-auto"></img>
               <p className="mt-4">{title}</p>
               <p className="mt-4">{proficiency}</p>
             </div>
