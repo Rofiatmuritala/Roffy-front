@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
-import image4 from "../assets/Screenshot (2).png";
+import image4 from "../assets/movie app.png";
 
 const Project = () => {
   return (
