@@ -12,7 +12,7 @@ const About = () => {
             About me
           </p>
         </div>
-        <p className="text-xl mt-20 ">
+        <p className="text-xl mt-20 font-aria">
           I am a recent graduate with a strong background in Economics, but my
           journey didn't stop there. Despite having no prior knowledge in web
           development, I found my passion in creating apps and websites to
@@ -27,7 +27,7 @@ const About = () => {
         </p>
         <br></br>
 
-        <p className="text-xl">
+        <p className="text-xl font-aria">
           My goal is to continue using my skills in web development to develop
           innovative solutions that address societal challenges and contribute
           to positive change. I am passionate about leveraging technology for

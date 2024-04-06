@@ -5,6 +5,7 @@ export default {
     extend: {},
     fontFamily: {
       signature: ["Great Vibes"],
+      aria: ["Time News Roman"],
     },
   },
   plugins: [],

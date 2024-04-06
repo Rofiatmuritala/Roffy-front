@@ -1,7 +1,7 @@
 import React from "react";
-import image1 from "../assets/hero.jpg";
-import image2 from "../assets/Rofiatbg.png";
+import image2 from "../assets/Rofiatbgedit.png";
 import { MdCloudDownload } from "react-icons/md";
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 const Home = () => {
   return (
     <div
@@ -26,6 +26,40 @@ const Home = () => {
                 </span>
               </button>
             </a>
+          </div>
+          <div>
+            <ul class="flex items-center mt-5 space-x-5 lg:hidden">
+              <li>
+                <a
+                  href="https://linkedin.com"
+                  class="text-gray-500 hover:text-white dark:hover:text-slate-700 dark:text-gray-400"
+                >
+                  <span className="group-hover:rotate-360 duration-300">
+                    <FaLinkedin size={30} className="ml-1" />
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/rofiatmuritala"
+                  class="text-gray-500 hover:text-white dark:hover:text-slate-700 dark:text-gray-400"
+                >
+                  <span className="group-hover:rotate-360 duration-300">
+                    <FaGithub size={30} className="ml-1" />
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://instagram.com"
+                  class="text-gray-500 shadow-inner shadow-blue-600 hover:text-white dark:hover:text-slate-700 dark:text-gray-400"
+                >
+                  <span className="group-hover:rotate-360 duration-300">
+                    <FaInstagram size={30} className="ml-1" />
+                  </span>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
         <div>
