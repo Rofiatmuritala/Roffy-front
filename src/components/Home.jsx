@@ -1,5 +1,5 @@
 import React from "react";
-import image2 from "../assets/imagebg.png";
+import image2 from "../assets/myself.png";
 import { MdCloudDownload } from "react-icons/md";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col h-full justify-center pt-2">
-          <h2 className="text-4xl lg:text-7xl font-bold text-white pt-2 ">
+          <h2 className="text-4xl lg:text-7xl font-bold text-white pt-2 mx-4 ">
             I am a web developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
@@ -66,7 +66,7 @@ const Home = () => {
           <img
             src={image2}
             alt=" my profile"
-            className="rounded-2xl mx-auto w-full shadow-gray-600 md:w-1/2"
+            className="rounded-2xl mx-auto w-full shadow-gray-600 md:w-full"
           />
         </div>
       </div>

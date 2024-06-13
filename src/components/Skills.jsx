@@ -1,5 +1,5 @@
 import React from "react";
-import php from "../assets/php-logo.png+";
+import php from "../assets/php.png";
 import css from "../assets/css.jpg";
 import javascript from "../assets/js-logo.png";
 import react from "../assets/react-logo.png";
@@ -79,9 +79,7 @@ const Skills = () => {
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Skills
           </p>
-          <p className="py-6">
-            These are the technical and soft skills we have
-          </p>
+          <p className="py-6">These are the technical and soft skills I have</p>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, proficiency, style }) => (

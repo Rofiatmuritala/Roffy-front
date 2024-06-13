@@ -24,8 +24,8 @@ const Contact = () => {
             Contact me
           </h2>
           <p className="mt-2 text-lg leading-8 text-white">
-            Feel free to reach out to us! Whether you have a question, feedback,
-            or a collaboration proposal, we'd love to hear from you.{" "}
+            Feel free to reach out to me! Whether you have a question, feedback,
+            or a collaboration proposal, I would love to hear from you.
           </p>
         </div>
         <form
