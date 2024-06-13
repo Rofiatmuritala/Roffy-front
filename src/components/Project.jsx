@@ -4,6 +4,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 import movie from "../assets/MovieApp.png";
 import agro from "../assets/agro .png";
 import health from "../assets/Health.png";
+import url from "../assets/url.png";
 
 const Project = () => {
   return (
@@ -21,7 +22,32 @@ const Project = () => {
           </div>
 
           <div className="grid grid-cols-1 pb-10 md:grid-cols-2 gap-10 mx-auto w- ">
-            <div className="mb-4 lg:mb-0 p-4 lg:p-0 w-full md:w-4/7  rounded block border-4 border-gray-500">
+            <div className="mb-4 lg:mb-0 p-4 lg:p-0 w-full md:w-4/7 rounded block border-4 border-gray-900">
+              <img src={url} className="rounded-md object-cover w-full h-64" />
+
+              <h1 className="my-5 text-3xl font-bold ml-2 leading-tight">
+                Url Shortener
+              </h1>
+
+              <div className="flex justify-between pb-9">
+                <button className="inline-block px-6 py-3 mt-2 rounded-md bg-gray-700 text-gray-100 ml-3 ">
+                  <a
+                    href="https://github.com/Rofiatmuritala/URL-Shortener-App"
+                    target="_blank"
+                  >
+                    <FaGithub size={30} className="ml-1 flex flex-col-2" /> Repo
+                  </a>
+                </button>
+                <a
+                  href="https://url-shortener-app-8ehi.vercel.app/"
+                  target="_blank"
+                  className="inline-block px-6 py-3 mt-2 rounded-md bg-gray-700 text-gray-100 mr-3"
+                >
+                  <FaExternalLinkAlt size={30} /> Demo
+                </a>
+              </div>
+            </div>
+            <div className="mb-4 lg:mb-0 p-4 lg:p-0 w-full md:w-4/7  rounded block border-4 border-gray-900">
               <img
                 src={health}
                 className="rounded-md object-cover w-full h-64"
@@ -48,7 +74,7 @@ const Project = () => {
                 </a>
               </div>
             </div>
-            <div className="mb-4 lg:mb-0 p-4 lg:p-0 w-full md:w-4/7  rounded block border-4 border-gray-500">
+            <div className="mb-4 lg:mb-0 p-4 lg:p-0 w-full md:w-4/7  rounded block border-4 border-gray-900">
               <img src={agro} className="rounded-md object-cover w-full h-64" />
 
               <h1 className="my-5 text-3xl ml-2 font-bold leading-tight">
@@ -75,7 +101,7 @@ const Project = () => {
                 </a>
               </div>
             </div>
-            <div className="mb-4 lg:mb-0 p-4 lg:p-0 w-full md:w-4/7  rounded block border-4 border-gray-500">
+            <div className="mb-4 lg:mb-0 p-4 lg:p-0 w-full md:w-4/7  rounded block border-4 border-gray-900">
               <img
                 src={movie}
                 className="rounded-md object-cover w-full h-64"

@@ -1,11 +1,9 @@
 import React from "react";
-// import image5 from "../assets/Screensht (2).png";
-import html from "../assets/html-logo.png";
+import php from "../assets/php-logo.svg";
 import css from "../assets/css.jpg";
 import javascript from "../assets/js-logo.png";
 import react from "../assets/react-logo.png";
 import tailwind from "../assets/tailwind.png";
-import bootstrap from "../assets/bootstraplogo.png";
 import nodejs from "../assets/nodejs-logo.png";
 import expressjs from "../assets/express-js.logo.png";
 import git from "../assets/git-logo.png";
@@ -14,10 +12,10 @@ const Skills = () => {
   const techs = [
     {
       id: 1,
-      src: html,
-      title: "HTML",
-      proficiency: "Intermediate",
-      style: "shadow-orange-500",
+      src: php,
+      title: "PHP",
+      proficiency: "Basic",
+      style: "shadow-purple-500",
     },
     {
       id: 2,
@@ -44,7 +42,7 @@ const Skills = () => {
       id: 5,
       src: tailwind,
       title: "Tailwind",
-      proficiency: "Basic",
+      proficiency: "Intermediate",
       style: "shadow-sky-400",
     },
 
@@ -52,7 +50,7 @@ const Skills = () => {
       id: 6,
       src: nodejs,
       title: "Node Js",
-      proficiency: "Basic",
+      proficiency: "Intermediate",
       style: "shadow-green-500",
     },
     {
