@@ -1,5 +1,5 @@
 import React from "react";
-import php from "../assets/php-logo.svg";
+import php from "../assets/php-logo.png+";
 import css from "../assets/css.jpg";
 import javascript from "../assets/js-logo.png";
 import react from "../assets/react-logo.png";
