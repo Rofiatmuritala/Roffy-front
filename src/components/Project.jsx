@@ -59,7 +59,7 @@ const Project = () => {
 
               <div className="flex justify-between pb-9">
                 <a
-                  href="https://github.com/Rofiatmuritala/React-Health-Landing-Pages"
+                  href="https://github.com/Rofiatmuritala/React-Health-Landing-Page"
                   target="_blank"
                   className="inline-block px-6 py-3 mt-2 rounded-md bg-gray-700 text-gray-100 ml-3 "
                 >
@@ -83,7 +83,7 @@ const Project = () => {
 
               <div className="flex justify-between pb-9">
                 <a
-                  href="github/rofiatmuritala"
+                  href="https://github.com/Rofiatmuritala/AgroMarketPlace"
                   target="_blank"
                   className="inline-block px-6 py-3 mt-2 rounded-md bg-gray-700 text-gray-100 ml-3 "
                 >

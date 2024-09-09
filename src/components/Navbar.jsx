@@ -34,7 +34,10 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center w-ful h-20 px-4 text-white bg-black fixed w-full">
       <div>
-        <h1 className="font-signature text-5xl ml-2"> Muritala Rofiat</h1>
+        <h1 className="font-signature text-2xl md:text-5xl ml-2">
+          {" "}
+          Muritala Rofiat
+        </h1>
       </div>
 
       <ul className="hidden md:flex">
